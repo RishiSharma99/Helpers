@@ -31,6 +31,7 @@
 #define debug(...)
 #define BUG(...)
 #endif /*DEBUG*/
+#include <ctype.h>
 static inline
 void dump_data(char *buff , long len){
 	for(long i=0 ; i<len ; i+= 16){
